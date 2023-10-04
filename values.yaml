@@ -395,6 +395,7 @@ podSecurityContext:
   runAsUser: 991
   runAsGroup: 991
   fsGroup: 991
+  fsGroupChangePolicy: "OnRootMismatch"
 
 # @ignored
 securityContext: {}
